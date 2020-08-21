@@ -18,7 +18,6 @@ GENERAL STYLES
 ==============================*/
 
 @import url(http://fonts.googleapis.com/css?family=Anton|Maven+Pro:500,700);
-
 body {
     font-family: 'Maven Pro', sans-serif;
     line-height: 25px;
@@ -40,11 +39,11 @@ section {
 }
 
 .set-bk-clr {
-    background-color: #FF2276;
+    background-color: #643173;
 }
 
 .clr-set {
-    color: #FF2276;
+    color: #643173;
 }
 
 .f-big {
@@ -53,64 +52,77 @@ section {
 }
 
 .set-bk-clr:hover {
-    background-color: rgba(107, 1, 41, 0.67);
+    background-color: #681E8F;
 }
+
 /*==============================
 NAVBAR STYLES
 ==============================*/
+
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
     color: #fff;
     font-size: 20px;
     text-transform: uppercase;
 }
-.navbar-brand {
-padding:0px;
 
+.navbar-brand {
+    padding: 0px;
 }
-    .navbar-brand img {
-        height:50px;
-    }
+
+.propic{
+    border-radius: 50%;
+    margin-top: 160px;
+    width: 150px;
+    height: 150px;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
 .navbar-default .navbar-toggle {
     border-color: #FFF;
 }
 
-    .navbar-default .navbar-toggle .icon-bar {
-        background-color: #FFF;
-    }
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
 
-    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-        background-color: rgba(0, 0, 0, 0);
-    }
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: rgba(0, 0, 0, 0);
+}
 
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav>li>a {
     color: #fff;
     font-weight: 900;
 }
 
-    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-        color: #000;
-        text-decoration: none;
-    }
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #000;
+    text-decoration: none;
+}
 
 .navbar-default {
-    background-color: #FF2276;
+    background-color: #530066;
     border-color: transparent;
 }
+
 /* ADDED PADDING IN NAVBAR */
+
 .navbar {
     padding: 15px;
-    -webkit-transition: background .8s ease-out,padding .8s ease-out;
-    -moz-transition: background .8s ease-out,padding .8s ease-out;
-    transition: background .8s ease-out,padding .8s ease-out;
+    -webkit-transition: background .8s ease-out, padding .8s ease-out;
+    -moz-transition: background .8s ease-out, padding .8s ease-out;
+    transition: background .8s ease-out, padding .8s ease-out;
 }
+
 /* CLASS FOR REMOVING PADDING IN NAVBAR*/
+
 .navbar-pad-original {
     padding: 0px;
 }
 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     color: #000;
     background-color: rgba(0, 0, 0, 0);
     border-radius: 4px;
@@ -118,13 +130,12 @@ padding:0px;
     -moz-border-radius: 4px;
 }
 
-
 /* =============================================================
   HEADER SECTION STYLES
  ============================================================ */
 
 #header {
-    background: url(../img/home.jpg) no-repeat center center;
+    background: url(https://images.unsplash.com/photo-1547394765-185e1e68f34e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -133,51 +144,51 @@ padding:0px;
     color: #fff;
 }
 
-    #header .overlay {
-        background-color: rgba(3, 3, 3, 0.8);
-        min-height: 700px;
-    }
+#header .overlay {
+    background-color: rgba(3, 3, 3, 0.8);
+    min-height: 700px;
+}
 
-    #header h1 {
-        line-height: 60px;
-        font-size: 45px;
-        font-weight: 900;
-        padding-top: 180px;
-        padding-bottom: 35px;
-        color: #FF2276;
-    }
+#header h1 {
+    line-height: 60px;
+    font-size: 45px;
+    font-weight: 900;
+    padding-bottom: 20px;
+    color: #fff;
+}
 
-
-    #header h4 {
-        line-height: 30px;
-        font-size: 12px;
-        padding-bottom: 40px;
-        text-transform: uppercase;
-    }
+#header h4 {
+    line-height: 30px;
+    font-size: 20px;
+    padding-bottom: 40px;
+    color: #ccc;
+}
 
 /*================================
     SERVICES STYLES
 ==================================*/
+
 #services {
     background-color: rgba(237, 237, 237, 1);
 }
 
-    #services i {
-        font-size: 80px;
-        padding: 30px;
-        color: #FF2276;
-    }
+#services i {
+    font-size: 80px;
+    padding: 30px;
+    color: #530066;
+}
 
-    #services h4 {
-        padding-bottom: 5px;
-        padding-top: 15px;
-    }
+#services h4 {
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
 /* =============================================================
   CLIENTS SECTION STYLES
  ============================================================ */
 
 #clients {
-    background: url(../img/clients.jpg) no-repeat center center;
+    background: url(https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -185,44 +196,45 @@ padding:0px;
     background-attachment: fixed;
 }
 
-    #clients .overlay {
-        background-color: rgba(0,0,0,0.7);
-        padding-top: 90px;
-        min-height: 300px;
-        color: #fff;
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
+#clients .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 90px;
+    min-height: 300px;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 .clients-carousel {
-    margin-top: 50px; /*SMALL TOP MARGIN FOR SPACE */
+    margin-top: 50px;
+    /*SMALL TOP MARGIN FOR SPACE */
     padding: 0 30px 30px 30px;
 }
 
-    .clients-carousel .thumbnail {
-        border: 1px solid #FF2276;
-    }
+.clients-carousel .thumbnail {
+    border: 1px solid #ffffff;
+}
 
-    .clients-carousel .carousel-control.left {
-        height: 30px;
-        width: 25px;
-        margin-top: 45px;
-        background: #FF2276;
-        left: -15px;
-    }
+.clients-carousel .carousel-control.left {
+    height: 30px;
+    width: 25px;
+    margin-top: 45px;
+    background: #530066;
+    left: -15px;
+}
 
-    .clients-carousel .carousel-control.right {
-        height: 30px;
-        width: 25px;
-        margin-top: 45px;
-        background: #FF2276;
-        right: -15px;
-    }
+.clients-carousel .carousel-control.right {
+    height: 30px;
+    width: 25px;
+    margin-top: 45px;
+    background: #530066;
+    right: -15px;
+}
 
-    .clients-carousel img {
-        width: 100%;
-        height: 120px;
-    }
+.clients-carousel img {
+    width: 100%;
+    height: 120px;
+}
 
 #clients .thumbnail {
     background-color: transparent;
@@ -233,12 +245,14 @@ padding:0px;
  ============================================================ */
 
 /* FOR CHANGING COLOR OF ACTIVE CATEGORY */
+
 .caegories a.active {
     background-color: #FF2276;
     border: 2px solid #FF2276;
 }
 
 /* FOR TRANSITION BEAUTIFULLY */
+
 .isotope .isotope-item {
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
@@ -252,19 +266,25 @@ padding:0px;
 }
 
 #works img {
-    filter: gray; /* FOR IE6-9 */
-    -webkit-filter: grayscale(1); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
+    filter: gray;
+    /* FOR IE6-9 */
+    -webkit-filter: grayscale(1);
+    /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
     opacity: 0.8;
 }
 
-    #works img:hover {
-        filter: none; /* FOR IE6-9 */
-        -webkit-filter: grayscale(0); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
-        opacity: 1;
-    }
+#works img:hover {
+    filter: none;
+    /* FOR IE6-9 */
+    -webkit-filter: grayscale(0);
+    /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
+    opacity: 1;
+}
+
 /* =============================================================
   TESTIMONIAL SECTION STYLES
  ============================================================ */
+
 #testimonial {
     background: url(../img/testimonial.jpg) no-repeat center center;
     padding: 0;
@@ -274,17 +294,19 @@ padding:0px;
     background-attachment: fixed;
 }
 
-    #testimonial .overlay {
-        background-color: rgba(0,0,0,0.7);
-        padding-top: 90px;
-        min-height: 300px;
-        color: #fff;
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
+#testimonial .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 90px;
+    min-height: 300px;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 /* =============================================================
   TEAM SECTION STYLES
  ============================================================ */
+
 #team {
     background-color: rgba(237, 237, 237, 1);
 }
@@ -296,12 +318,14 @@ padding:0px;
     border: 2px solid #FF2276;
 }
 
-    .media img:hover {
-        opacity: 0.6;
-    }
+.media img:hover {
+    opacity: 0.6;
+}
+
 /* =============================================================
   CONTACT SECTION STYLES
  ============================================================ */
+
 #contact {
     background: url(../img/clients.jpg) no-repeat center center;
     padding: 0;
@@ -311,17 +335,19 @@ padding:0px;
     background-attachment: fixed;
 }
 
-    #contact .overlay {
-        background-color: rgba(0,0,0,0.9);
-        padding-top: 90px;
-        min-height: 300px;
-        color: #fff;
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
+#contact .overlay {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-top: 90px;
+    min-height: 300px;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 /* =============================================================
   FOOTER SECTION STYLES
  ============================================================ */
+
 footer {
     padding: 20px;
     font-size: 15px;
@@ -330,7 +356,7 @@ footer {
     background-color: rgba(237, 237, 237, 1);
 }
 
-    footer a, footer a:hover {
-        color: #000;
-        text-decoration: none;
-    }
+footer a, footer a:hover {
+    color: #000;
+    text-decoration: none;
+}
